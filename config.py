@@ -1,12 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -14,19 +5,19 @@ from logging.handlers import RotatingFileHandler
 
 
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7157102996:AAHxnKbFJANqdn3KaT1RwvcFWpfpxHgffr0")
-APP_ID = int(os.environ.get("APP_ID", "20937822"))
-API_HASH = os.environ.get("API_HASH", "68d3b463d3c53536782545f790aa5147")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7259590228:AAEKoANUwZUuvd8FUVyOQ3Cbxe_49H32vlo")
+APP_ID = int(os.environ.get("APP_ID", "16575077"))
+API_HASH = os.environ.get("API_HASH", "1c8c0bcb55c14e0fd8078058966b6a11")
 
 
-OWNER = os.environ.get("OWNER", "@anmol0700") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "1663603208")) #Owner user id
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://anmol0700:anmol0700@cluster0.p1awesn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "miguel0700")
+OWNER = os.environ.get("OWNER", "@") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "1702061654")) #Owner user id
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://madarazbotz:O8WtNAEReh6ohJEt@cluster0.9mosuuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "pomoibot")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001776794341"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001938162468"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213043042"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001757250028"))
 
 
 SECONDS = int(os.getenv("SECONDS", "600")) # auto delete in seconds
@@ -39,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 
-START_MSG = os.environ.get("START_MESSAGE", "<b> ​🇭​​🇪​​🇱​​🇱​​🇴​ {first} 🥵\n\nɪ'ᴍ ʏᴏᴜʀ ᴍᴏᴍᴍʏ 😋💦 \n\nʏᴏᴜ ᴄᴀɴ ᴜɴᴅʀᴇꜱꜱ ᴍᴇ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰɪʟᴇꜱ ꜱʜᴀʀᴇᴅ ʙʏ ᴍʏ ᴏᴡɴᴇʀ 😈\n\nᴘᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/anmol0700'>ᴍɪɢᴜᴇʟ ᴏ'ʜᴀʀᴀ! 🖤</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Hᴇʟʟᴏ {first}🙌\n\nI ᴀᴍ ᴀ Fɪʟᴇ [ᴍᴏᴠɪᴇ/ꜱᴇʀɪᴇꜱ/ᴀɴɪᴍᴇ] Pʀᴏᴠɪᴅᴇʀ ʙᴏᴛ \nSᴜʙꜱᴄʀɪʙᴇ ᴛᴏ ᴍʏ Cʜᴀɴɴᴇʟ ᴛᴏ ɢᴇᴛ Fɪʟᴇꜱ ☠️\n\nMᴏᴠɪᴇ/Sᴇʀɪᴇꜱ ~ <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Jᴏɪɴ Hᴇʀᴇ</a>\n\nPᴏᴡᴇʀᴇᴅ ʙʏ <a href='https://t.me/BinaryQuest'>Bɪɴᴀʀʏ Qᴜᴇꜱᴛ 🖤</a></b>")
 
 try:
     ADMINS=[7085541484]
@@ -49,16 +40,16 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hello {first}\n\n<b>You need to join in my Channel/Group to use me</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join : <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Cʟɪᴄᴋ Mᴇ 🖤</a></b>")
 
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>Join @FindMyMommy 🥵</b>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "<b>ᴀʜʜ ꜱᴡᴇᴇᴛɪᴇ ! 😋\n\n❌ ᴅᴏɴ'ᴛ ꜱᴇɴᴅ ᴍᴇ ᴍᴇꜱꜱᴀɢᴇꜱ ᴅɪʀᴇᴄᴛʟʏ.</b>"
+USER_REPLY_TEXT = "<b>Tʜᴀɴᴋ Yᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ Oᴜʀ ʙᴏᴛ..!\n\nPʟᴇᴀꜱᴇ Jᴏɪɴ - <a href='https://t.me/+g2ccWFbI2XJkMTE9'>Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 🔥</a>\n\nTᴏ ɢᴇᴛ Aʟʟ ʟᴀᴛᴇꜱᴛ Mᴏᴠɪᴇ/Sᴇʀɪᴇꜱ 🖤</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(7085541484)
@@ -84,13 +75,3 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
    
-
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
