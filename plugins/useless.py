@@ -24,7 +24,7 @@ async def stats(bot: Bot, message: Message):
             [InlineKeyboardButton("Close Me", callback_data="close")]
         ]
     )
-    picture_url = "https://telegra.ph/file/15c17f6139f7979b46bbd.jpg"
+    picture_url = "https://telegra.ph/file/ea2ee79f2c74f287e5bc0.jpg"
     caption_text = "ᴀʜʜʜ! 🎀 ᴡᴀɴɴᴀ ᴄʜᴇᴄᴋ ᴍʏ ᴄᴀᴘᴀᴄɪᴛʏ ?"
 
     await bot.send_photo(
