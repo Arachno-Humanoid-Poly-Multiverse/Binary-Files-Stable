@@ -13,15 +13,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text=f"""<b>╭──────❰ 🤖 Bot Details ❱──────〄
-│ 
-│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/{client.username}>𝗠𝗼𝗺𝗺𝘆 (ㅅ)</a>
-│ 👨‍💻 ᴅᴇᴠᴘʟᴏᴇʀ : <a href=https://t.me/Anmol0700>ᴍɪɢᴜᴇʟ ᴏ’ʜᴀʀᴀ!</a>
-│ 🤖 ᴜᴘᴅᴀᴛᴇ  : <a href=https://t.me/Film_Nest>FilmNest </a>
-│ 📡 ʜᴏsᴛ ᴏɴ : <a href=http://microsoft.com/>Microsoft Altair 8800 computer</a>
-│ 🗣️ ʟᴀɴɢᴜᴀɢᴇ  : ᴘʏᴛʜᴏɴ 3 
-│ 📚 ʟɪʙʀᴀʀʏ  : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>  
-╰────────────────────⍟</b>""",
+            text=f"<b>○ 🖤 ᴍʏ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/BinaryQuest'>BɪɴᴀʀʏQᴜᴇꜱᴛ</a> \n○ ❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ : @BQChats \n○ 🔥Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ 🥶sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ  : <a href='https://t.me/itz_sahil_official'>ᴘʀɪᴠᴀᴛᴇ ᴄᴏᴅᴇ</a>\n○ 🥵 ᴅᴏɴᴀᴛᴇ ᴍᴇ : <a href='https://t.me/itz_sahil_official/52'>ᴄʟɪᴄᴋ ᴍᴇ</a></b>",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -39,22 +31,21 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         await query.message.edit_text(
             text="""
 <b>❤️ᴛʜᴀɴᴋs ꜰᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ 😟
-ᴅᴏɴᴀᴛᴇ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ᴄᴏɴᴛɪɴᴜᴏᴜsʟʏ ᴀʟɪᴠᴇ 😢
+
+ᴅᴏɴᴀᴛᴇ ᴜs ᴛᴏ ᴋᴇᴇᴘ ᴏᴜʀ sᴇʀᴠɪᴄᴇs ᴄᴏɴᴛɪɴᴏᴜsʟʏ ᴀʟɪᴠᴇ 😢
 ʏᴏᴜ ᴄᴀɴ sᴇɴᴅ ᴀɴʏ ᴀᴍᴏᴜɴᴛ 
 ᴏꜰ 10₹, 20₹, 30₹, 50₹, 70₹, 100₹, 200₹ ...ᴀs ʏᴏᴜ ᴡɪsʜ 😊
 
 📨 ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs 💳
+
 ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ ... 
 
 ❤️ꜰᴏʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇssᴀɢᴇ ᴍᴇ💬 
-👉 @anmol0700 [or here via this bot]
+ 👉Cʟɪᴄᴋ Hᴇʀᴇ (https://t.me/BinaryQuest/79) [or here via this bot]
 
 ᴏʀ ʏᴏᴜ ᴄᴀɴ sᴄᴀɴ ᴛʜᴇ ǫʀ ᴄᴏᴅᴇ 👇
 ᴜᴘɪ ʟɪɴᴋ 🔗 ᴀʟsᴏ ᴛʜᴇʀᴇ 😇
-
-🌹 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 🌹
-
-🛍 UPI ID: anmol0700@fam</b>
+🌹 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 🌹</b>
             """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
