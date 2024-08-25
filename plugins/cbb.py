@@ -41,11 +41,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ ... 
 
 ❤️ꜰᴏʀ ᴅᴏɴᴀᴛɪᴏɴ ᴍᴇssᴀɢᴇ ᴍᴇ💬 
- 👉Cʟɪᴄᴋ Hᴇʀᴇ (https://t.me/BinaryQuest/79) [or here via this bot]
+<a href='https://t.me/itz_sahil_official/52'>👉Cʟɪᴄᴋ Hᴇʀᴇ</a>
 
 ᴏʀ ʏᴏᴜ ᴄᴀɴ sᴄᴀɴ ᴛʜᴇ ǫʀ ᴄᴏᴅᴇ 👇
-ᴜᴘɪ ʟɪɴᴋ 🔗 ᴀʟsᴏ ᴛʜᴇʀᴇ 😇
-🌹 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 🌹</b>
+ᴜᴘɪ ʟɪɴᴋ 🔗 ᴀʟsᴏ ᴛʜᴇʀᴇ 😇\n
+<a href='https://t.me/BinaryFilesBot?start=Z2V0LTc2MDY3OTY5OTY2ODg3OA'>Pᴀʏᴍᴇɴᴛꜱ Fᴏʀ BɪɴᴀʀʏQᴜᴇꜱᴛ</a>\n
+👻 ᴛʜᴀɴᴋɪɴɢ ʏᴏᴜ 👻</b>
             """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
